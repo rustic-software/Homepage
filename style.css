@@ -16,10 +16,8 @@ body {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 25%;
     float: right;
-    background-color: white;
 }
 
 /* Navbar links */
@@ -39,26 +37,26 @@ body {
 #navbar a:hover {
     background-color: #35B8E9;
 }
-  
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
-  
+
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 60px;
 }
 
-.parallax { 
+.parallax {
     /* The image used */
     background-image: url("img_parallax.jpg");
-  
+
     /* Set a specific height */
     height: 400px;
-  
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -75,24 +73,24 @@ body {
 * {
     box-sizing: border-box;
 }
-  
+
 /* Float four columns side by side */
 .column {
     float: left;
     width: 25%;
     padding: 10px;
 }
-  
+
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0px;}
-  
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+
   /* Responsive columns */
   @media screen and (max-width: 600px) {
     .column {
@@ -101,7 +99,7 @@ body {
       margin-bottom: 20px;
     }
   }
-  
+
   /* Style the counter cards */
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
