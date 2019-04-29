@@ -1,3 +1,12 @@
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 1020px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,13 +44,6 @@ body {
     background-color: #35B8E9;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
 .parallax {
     /* The image used */
     background-image: url("img_parallax.jpg");
@@ -61,9 +63,6 @@ body {
     padding-top: 40px;
 }
 
-* {
-    box-sizing: border-box;
-}
   
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -92,17 +91,4 @@ body {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
-}
-  
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 1020px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-}
-
-a {
-    color: inherit;
 }
